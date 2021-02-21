@@ -6,7 +6,7 @@ telegram: @Anastasia_Sml \
 discord: @Anastasia#8750
 
 ## About me
-empty space
+soft-skills
 ## Hard-skills
 1. JavaScript
 2. GIT
