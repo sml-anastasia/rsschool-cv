@@ -36,3 +36,19 @@ function calcPrice() {
         }
     document.getElementById("price").innerHTML = `Стоимость данной модели: ${sum}`;
     }
+```
+
+## Work experience
+
+**Study projects**
+1. web-site for clothes designer\
+https://github.com/itgirlschool/projectSh\
+2. notes dashboard\
+https://github.com/sml-anastasia/Notes-dashboard-prototype\
+
+## Education
+- itgirlschool https://itgirlschool.ru
+- Moscow State University, September 2014 - June 2018
+
+## English level
+B1, Intermediate
