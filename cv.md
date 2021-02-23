@@ -42,9 +42,11 @@ function calcPrice() {
 
 **Study projects**
 1. web-site for clothes designer\
-https://github.com/itgirlschool/projectSh\
+https://github.com/itgirlschool/projectSh \
+Skills: adaptive design, CSS flexbox, grid
 2. notes dashboard\
-https://github.com/sml-anastasia/Notes-dashboard-prototype\
+https://github.com/sml-anastasia/Notes-dashboard-prototype \
+Skills: JS arrays, local-storage, CSS flexbox, grid
 
 ## Education
 - itgirlschool https://itgirlschool.ru
