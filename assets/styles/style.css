@@ -1,0 +1,26 @@
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+.container {
+    width: 80%;
+    padding: 3%;
+    border: 1px solid black;
+}
+
+.main-title {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+}
+
+.list__title {
+    font-size: 1.5rem;
+    list-style-type: none;
+}
+
+.contacts__list {
+    list-style-type: square;
+}
