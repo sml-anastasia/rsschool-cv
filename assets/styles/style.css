@@ -3,31 +3,49 @@ body {
     display: flex;
     justify-content: center;
     font-family: "Mulish", sans-serif;
+    background: linear-gradient(90deg, #53889D 0%, #BBD1D9 100%);
+    color: #444;
 }
 
 a {
     text-decoration: none;
+    color: #f9f9fb;
 }
 
 .container {
-    width: 60%;
+    width: auto;
+    margin: 5rem 10rem;
     padding: 3%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    display: grid;
+    grid-template-areas:
+        "aside main"
+        "footer footer";
+    grid-gap: 3rem;
+
+    box-sizing: border-box;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
 }
 
 .container__box {
-    border-top: 0.5px dashed #cfcfcf;
+    border-top: 0.5px dashed #444;
+    box-sizing: border-box;
 }
 
 .title_main {
     font-family: 'Playfair Display', serif;
+    color: #363636;
     text-transform: uppercase;
 }
 
 .title_sub {
     font-size: 24px;
+    color: #363636;
 }
 
 .list__title {
@@ -41,11 +59,11 @@ a {
 }
 
 .main-box {
-    margin-left: 2%;
+    grid-area: main;
 }
 
 .aside-box {
-    margin-right: 2%;
+    grid-area: aside;
 }
 
 .experience__project {
@@ -53,6 +71,7 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 .project-name {
@@ -63,4 +82,32 @@ a {
 .project-img {
     width: 300px;
     height: auto;
+}
+
+.footer {
+    padding-top: 5%;
+    border-top: 1px solid #444;
+    display: flex;
+    justify-content: center;
+    grid-area: footer;
+}
+
+.footer__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info__elem {
+    margin: auto 3rem;
+}
+
+.info__icon_github {
+    width: 24px;
+    height: auto;
+}
+
+.info__icon_rs {
+    width: auto;
+    height: 24px;
 }
