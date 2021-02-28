@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="assets/styles/style.css">
     <link rel="stylesheet" href="assets/styles/normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;0,500;1,200;1,400;1,500&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap"
@@ -18,11 +20,11 @@
 
 <body>
     <div class="container">
-        <aside class="aside">
+        <aside class="aside-box">
             <div class="photo"><img src="assets/images/main-photo.jpg" alt="photo"></div>
             <section class="contacts">
                 <ul class="contacts__list">
-                    <li class="list__title">Contact me:</li>
+                    <h2 class="list__title">Contact me:</h2>
                     <li>tel.: +79055010306</li>
                     <li>email: smolina.anastasia.14@gmail.com</li>
                     <li>telegram: @Anastasia_Sml</li>
@@ -31,19 +33,25 @@
             </section>
         </aside>
 
-        <main>
-            <section class="main-info">
-                <h1 class="main-title">Smolina Anastasia</h1>
+        <main class="main-box">
+            <h1 class="title_main">Smolina Anastasia</h1>
 
+            <section class="about container__box">
+                <h2 class="title_sub">About me</h2>
+                <p>My aim is to become a qualified web-developer and build a successful career in the IT field</p>
+                <h2 class="list__title">Soft-skills:</h2>
+                <ul class="soft-skills__list">
+                    <li>ability and commitment to rapid learning</li>
+                    <li>perseverance</li>
+                    <li>teamwork skills</li>
+                    <li>ability to make decisions</li>
+                    <li>the ability to quickly grasp the essence of the problem</li>
+                </ul>
             </section>
 
-            <section class="about">
-                <h2>soft-skills, goals</h2>
-            </section>
-
-            <section class="skills">
+            <section class="skills container__box">
+                <h2 class="list__title">Hard-skills:</h2>
                 <ul>
-                    <li class="list__title">Hard-skills</li>
                     <li>JavaScript</li>
                     <li>GIT</li>
                     <li>HTML, CSS, SCSS</li>
@@ -52,26 +60,41 @@
                     <li>BEM metodology</li>
                 </ul>
             </section>
-            <section class="experience">
-                <h2>Study projects</h2>
-                <p>
-                    web-site for clothes designer
-                    https://github.com/itgirlschool/projectSh
-                    Skills: adaptive design, CSS flexbox, grid
-                    notes dashboard
-                    https://github.com/sml-anastasia/Notes-dashboard-prototype
-                    Skills: JS arrays, local-storage, CSS flexbox, grid</p>
+            <section class="experience container__box">
+                <h2 class="title_sub">Study projects</h2>
+                <article class="experience__project">
+                    <div>
+                        <p class="project-name">web-site for clothes designer</p>
+                        <a
+                            href="https://github.com/itgirlschool/projectSh">https://github.com/itgirlschool/projectSh</a>
+                        <p>Skills: adaptive design, CSS flexbox, grid</p>
+                    </div>
+                    <img class="project-img" src="assets/images/helga-bloom-website.png"
+                        alt="helga bloom website example">
+                </article>
+                <article class="experience__project">
+                    <div>
+                        <p class="project-name">notes dashboard</p>
+                        <a
+                            href="https://github.com/sml-anastasia/Notes-dashboard-prototype">https://github.com/sml-anastasia/Notes-dashboard-prototype</a>
+                        <p>Skills: JS arrays, local-storage, CSS flexbox, grid</p>
+                    </div>
+                    <img class="project-img" src="assets/images/notes-dashboard.png" alt="notes dashboard example">
+                </article>
             </section>
 
-            <section class="education">
-                <h2>Education</h2>
-                <p>itgirlschool https://itgirlschool.ru
-                    Moscow State University, September 2014 - June 2018</p>
+            <section class="education container__box">
+                <h2 class="title_sub">Education</h2>
+                <p>itgirlschool <a href="https://itgirlschool.ru">https://itgirlschool.ru</a></p>
+                <p>Moscow State University, September 2014 - June 2018</p>
             </section>
 
-            <section class="language">
-                <h2>english level</h2>
+            <section class="language container__box">
+                <h2 class="title_sub">English level</h2>
+                <p>B1, Intermediate</p>
             </section>
+
+            <footer class="footer"></footer>
         </main>
     </div>
 </body>
