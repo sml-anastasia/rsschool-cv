@@ -13,7 +13,6 @@ Soft-skills:
 - teamwork skills
 - ability to make decisions
 - the ability to quickly grasp the essence of the problem
-
 ## Hard-skills
 1. JavaScript
 2. GIT
@@ -44,6 +43,7 @@ function calcPrice() {
     document.getElementById("price").innerHTML = `Стоимость данной модели: ${sum}`;
     }
 ```
+
 ## Work experience
 
 **Study projects**
